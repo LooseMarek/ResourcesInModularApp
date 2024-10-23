@@ -14,7 +14,7 @@ public struct ExampleComponent: View {
     
     public var body: some View {
         VStack {
-            Text("UIComponents Text with color from Common")
+            Text("MyCustomLabelWithValue".localizedWithFormat("1"))
                 .background(Color.myCustomColor)
             Image.myCustomImage
                 .resizable()

@@ -12,7 +12,7 @@ import UIComponents
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Text Color from Common")
+            Text("MyCustomLabel".localized())
                 .background(Color.myCustomColor)
             ExampleComponent()
         }

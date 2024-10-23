@@ -15,11 +15,13 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Common.h,
+				Extensions/ColorExtensions.swift,
+				Extensions/ImageExtensions.swift,
+				Extensions/StringExtensions.swift,
+				Extensions/UIImageExtensions.swift,
 				Resources/Assets.xcassets,
-				Resources/ColorExtensions.swift,
 				Resources/CommonBundle.swift,
-				Resources/ImageExtensions.swift,
-				Resources/UIImageExtensions.swift,
+				Resources/Localizable.xcstrings,
 			);
 			publicHeaders = (
 				Common.h,
@@ -114,6 +116,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 9DD71DCC2CC97D040055FFA3;
 			productRefGroup = 9DD71DD72CC97D040055FFA3 /* Products */;
@@ -277,6 +280,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -336,6 +340,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
