@@ -16,6 +16,7 @@ public struct ExampleComponent: View {
         VStack {
             Text("MyCustomLabelWithValue".localizedWithFormat("1"))
                 .background(Color.myCustomColor)
+                .font(Font.customFont24)
             Image.myCustomImage
                 .resizable()
                 .aspectRatio(contentMode: .fit)

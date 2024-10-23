@@ -14,6 +14,7 @@ struct ContentView: View {
         VStack {
             Text("MyCustomLabel".localized())
                 .background(Color.myCustomColor)
+                .font(Font.customFont48)
             ExampleComponent()
         }
         .padding()
